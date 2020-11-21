@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/idAnimeQ4"
+        android:layout_width="354dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtQ4"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/SpinQ4Group"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/Q4Group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idAnimeQ4" />
+
+    <TextView
+        android:id="@+id/idAnimeQ5"
+        android:layout_width="354dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtQ5"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SpinQ4Group" />
+
+    <Spinner
+        android:id="@+id/SpinQ5Group"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/Q5Group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idAnimeQ5" />
+
+    <TextView
+        android:id="@+id/idAnimeQ6"
+        android:layout_width="354dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtQ6"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SpinQ5Group" />
+
+    <Spinner
+        android:id="@+id/SpinQ6Group"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/Q6Group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idAnimeQ6" />
+
+    <Button
+        android:id="@+id/btnAnimeFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Btn6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

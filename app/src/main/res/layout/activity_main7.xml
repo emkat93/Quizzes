@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <TextView
+        android:id="@+id/idMovieQ4"
+        android:layout_width="354dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtQ10"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/SpinQ10Group"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/Q10Group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idMovieQ4" />
+
+    <TextView
+        android:id="@+id/idMovieQ5"
+        android:layout_width="354dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtQ11"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SpinQ10Group" />
+
+    <Spinner
+        android:id="@+id/SpinQ11Group"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/Q11Group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idMovieQ5" />
+
+    <TextView
+        android:id="@+id/idMovieQ6"
+        android:layout_width="354dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtQ12"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SpinQ11Group" />
+
+    <Spinner
+        android:id="@+id/SpinQ12Group"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/Q12Group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idMovieQ6" />
+
+    <Button
+        android:id="@+id/btnMovieFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Btn8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

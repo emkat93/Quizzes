@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Quizzes</string>
+    <string name="txtTitle1">Fun Quizzes</string>
+    <string name="txtTitle2">Select A Quiz</string>
+    <string name="Btn1">Start</string>
+    <string name="Btn2">Anime Quiz</string>
+    <string name="Btn3">Movie Quiz</string>
+    <string name="Btn4">Video Game Quiz</string>
+
+    <string name="txtQ1">What is the name of the main character in Blood+?</string>
+    <string-array name="Q1Group">
+        <item>A. Saya</item>
+        <item>B. Diva</item>
+        <item>C. Kai</item>
+        <item>D. Haji</item>
+    </string-array>
+    <string name="txtQ2">Who was the first character to go Super Saiyan 2?</string>
+    <string-array name="Q2Group">
+        <item>A. Goku</item>
+        <item>B. Vegeta</item>
+        <item>C. Gohan</item>
+        <item>D. Trunks</item>
+    </string-array>
+    <string name="txtQ3">What item did Light Yagami use to eliminate people?</string>
+    <string-array name="Q3Group">
+        <item>A. Watch</item>
+        <item>B. Notebook</item>
+        <item>C. Magazine</item>
+        <item>D. Sticky Notes</item>
+    </string-array>
+    <string name="Btn5">Next</string>
+
+    <string name="txtQ4">There were how many Millennium Items in Yu-Gi-OH?</string>
+    <string-array name="Q4Group">
+        <item>A. 8</item>
+        <item>B. 6</item>
+        <item>C. 9</item>
+        <item>D. 7</item>
+    </string-array>
+    <string name="txtQ5">What was the first Pokemon Ash caught?</string>
+    <string-array name="Q5Group">
+        <item>A. Bulbasaur</item>
+        <item>B. Caterpie</item>
+        <item>C. Pidgeotto</item>
+        <item>D. Pikachu</item>
+    </string-array>
+    <string name="txtQ6">Who is the daughter or Inuyasha and Kagome?</string>
+    <string-array name="Q6Group">
+        <item>A. Moroha</item>
+        <item>B. Towa</item>
+        <item>C. Setsuna</item>
+        <item>D. Mei</item>
+    </string-array>
+    <string name="Btn6">Finish</string>
+
+    <string name="txtResult">Result</string>
+
+    <string name="txtQ7">Who is the character in the animated Cinderella movies that gets redeemed?</string>
+    <string-array name="Q7Group">
+        <item>A. Lady Tremaine</item>
+        <item>B. Drizella</item>
+        <item>C. Anastasia</item>
+        <item>D. Mary</item>
+    </string-array>
+    <string name="txtQ8">In Coco who is the Great-Great Grandfather of Miguel?</string>
+    <string-array name="Q8Group">
+        <item>A. Hector</item>
+        <item>B. Julio</item>
+        <item>C. Ernesto</item>
+        <item>D. Berto</item>
+    </string-array>
+    <string name="txtQ9">In the Princess Diaries what is the main characters full name?</string>
+    <string-array name="Q9Group">
+        <item>A. Mia Thermopolis</item>
+        <item>B. Amelia Renaldi</item>
+        <item>C. Mia Mignonette Thermopolis Renaldi</item>
+        <item>D. Amelia Mignonette Thermopolis Renaldii</item>
+    </string-array>
+    <string name="Btn7">Next</string>
+
+    <string name="txtQ10">How many puppies did Lady anf the Tramp have?</string>
+    <string-array name="Q10Group">
+        <item>A. 2</item>
+        <item>B. 3</item>
+        <item>C. 4</item>
+        <item>D. 5</item>
+    </string-array>
+    <string name="txtQ11">What is the name of the Velociraptor that lives in Jurassic World?</string>
+    <string-array name="Q11Group">
+        <item>A. Delta</item>
+        <item>B. Blue</item>
+        <item>C. Echo</item>
+        <item>D. Charlie</item>
+    </string-array>
+    <string name="txtQ12">Who does Matilda live with at the end of the movie?</string>
+    <string-array name="Q12Group">
+        <item>A. Harry and Zinnia Wormwood</item>
+        <item>B. Jennifer Honey</item>
+        <item>C. Agatha Trunchbull</item>
+        <item>D. Amanda Thripp</item>
+    </string-array>
+    <string name="Btn8">Finish</string>
+</resources>
